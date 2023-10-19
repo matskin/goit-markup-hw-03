@@ -79,12 +79,14 @@ nav {
 
 /* Hero section */
 .hero-section {
+    padding: 200px 0;
     text-align: center;
     background-color: var(--color-bg-dark);
 }
 
 .hero-title {
     margin: 0;
+    padding-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
