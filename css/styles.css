@@ -96,6 +96,9 @@ ul {
 
 .hero-title {
     margin: 0;
+    width: 696px;
+    text-align: center;
+    font-style: normal;
     padding-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
