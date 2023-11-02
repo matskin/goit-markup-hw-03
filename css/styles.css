@@ -71,9 +71,14 @@ a {
     color: var(--color-brand);
 }
 
-.site-nav list {
+.site-nav .list {
 
 }
+
+.site-nav .item (
+    margin-right: 40px;
+    background-color: tomato;
+)
 
 .header-link {
     font-weight: 500;
@@ -85,7 +90,7 @@ a {
     color: var(--color-brand);
 }
 
-.auth-nav list {
+.auth-nav .list {
     
 }
 
