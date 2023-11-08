@@ -50,12 +50,11 @@ a {
 }
 
 .site-header {
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 .site-nav {
-    display: flex;
+    
 }
 
 .header-logo {
@@ -75,8 +74,7 @@ a {
 }
 
 .site-nav .item (
-    margin-right: 40px;
-    background-color: tomato;
+    
 )
 
 .header-link {
@@ -114,10 +112,7 @@ a {
 }
 
 .hero-title {
-    margin: 0;
     width: 696px;
-    display: inline-block;
-    padding: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -126,7 +121,6 @@ a {
 }
 
 .hero-button {
-    display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
