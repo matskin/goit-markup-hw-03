@@ -70,7 +70,11 @@ a {
 }
 
 .site-nav .list {
+    display: flex;
+}
 
+.site-nav .list li {
+    outline: 1px solid red;
 }
 
 .site-nav .item (
