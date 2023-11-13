@@ -73,8 +73,12 @@ a {
     display: flex;
 }
 
-.site-nav .list li {
+.site-nav .list .item {
     outline: 1px solid red;
+}
+
+.site-nav .list .item:not(:last-child) {
+    margin-right: 40px;
 }
 
 .site-nav .item (
