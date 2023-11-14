@@ -49,12 +49,9 @@ a {
     
 }
 
-.site-header {
-    
-}
-
-.site-nav {
-    
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -69,8 +66,9 @@ a {
     color: var(--color-brand);
 }
 
-.site-nav .list {
+.site-nav {
     display: flex;
+    align-items: center;
 }
 
 .site-nav .list .item {
@@ -81,11 +79,11 @@ a {
     margin-right: 40px;
 }
 
-.site-nav .item (
-    
-)
-
 .header-link {
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
     font-weight: 500;
     line-height: 1.18;
     color: var(--color-primary);
@@ -93,10 +91,6 @@ a {
 
 .header-link:hover {
     color: var(--color-brand);
-}
-
-.auth-nav .list {
-    
 }
 
 .selected {
