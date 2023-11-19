@@ -44,8 +44,8 @@ a {
     width: 1230px;
     text-align: center;
 
-    outline: 1px solid black;
-    background-color: #35df8b;
+    /*outline: 1px solid black;
+    background-color: #35df8b;*/
     
 }
 
@@ -56,6 +56,8 @@ a {
 }
 
 .header-logo {
+    padding-right: 93px;
+
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -72,16 +74,12 @@ a {
     align-items: center;
 }
 
-.site-nav .list {
-    padding-left: 30px;
-}
-
-.site-nav .list .item {
+/*.site-nav .list .item {
     outline: 1px solid red;
-}
+}*/
 
 .site-nav .list .item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .header-link {
@@ -113,7 +111,12 @@ a {
 }
 
 .auth-nav {
+    display: flex;
     margin-left: auto;
+}
+
+.auth-nav .list .item {
+   outline: 1px solid blue;
 }
 
 /* Hero section */
