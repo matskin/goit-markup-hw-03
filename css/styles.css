@@ -116,7 +116,8 @@ a {
 }
 
 .auth-nav .list .item {
-   outline: 1px solid blue;
+    margin-right: 50px;
+    outline: 1px solid blue;
 }
 
 /* Hero section */
