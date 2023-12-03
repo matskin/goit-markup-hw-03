@@ -38,6 +38,10 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 ul {
     display: flex;
     padding: 0;
@@ -253,6 +257,10 @@ h2 {
 }
 
 /* Works section */
+.container .work {
+    word-wrap: wrap;
+}
+
 .works-title {
     font-weight: 700;
     font-size: 18px;
@@ -309,7 +317,9 @@ h2 {
 
 
 .footer-logo {
-    margin-bottom: 20px;
+    display: block;
+    padding-bottom: 20px;
+
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -322,10 +332,22 @@ h2 {
     color: var(--color-brand);
 }
 .address-link {
+    display: block;
+    padding-bottom: 10px;
+
     color: var(--color-light);
 }
 
-.footer-link {
+.mail-link {
+    display: block;
+    padding-bottom: 10px;
+
+    color: var(--color-link);
+}
+
+.tel-link {
+    display: block;
+
     color: var(--color-link);
 }
 
