@@ -139,9 +139,14 @@ h2 {
     margin-right: 50px;
 }
 
+/* Main section */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Hero section */
 .hero-section {
-    margin-bottom: 94px;
     padding: 200px 0;
     background-color: var(--color-bg-dark);
 }
@@ -185,10 +190,6 @@ h2 {
 }
 
 /* Benefits section  */
-.container .benefits {
-    margin-bottom: 94px;
-}
-
 .benefits .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -205,10 +206,6 @@ h2 {
 }
 
 /* Do section  */
-.container .do {
-    margin-bottom: 94px;
-}
-
 .do .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -216,7 +213,6 @@ h2 {
 
 /* Team section  */
 .team {
-    padding: 94px 0;
     background-color: var(--color-bg);
 }
 
@@ -301,7 +297,7 @@ h2 {
     width: 1230px;
     text-align: left;
 
-    /* outline: 1px solid black;
+    /* utline: 1px solid black;
     background-color: #35df8b; */
 }
 
