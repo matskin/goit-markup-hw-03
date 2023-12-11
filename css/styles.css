@@ -141,6 +141,8 @@ h2 {
 
 /* Main section */
 .section {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 94px;
     padding-bottom: 94px;
 }
