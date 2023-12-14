@@ -9,7 +9,7 @@
     --color-bg: #f5f4fa;
     --color-line: #ececec;
 
-    /* --card-set-gap: 20px; */
+    --card-set-gap: 30px;
 }
 
 html {
@@ -73,6 +73,14 @@ h2 {
     /* outline: 1px solid black;
     background-color: #35df8b; */
     
+}
+
+.container .button {
+    margin-bottom: 50px;
+}
+
+.button .list {
+    margin: 0 auto;
 }
 
 .main-nav {
@@ -263,12 +271,14 @@ h2 {
 .card-set {
     display: flex;
     flex-wrap: wrap;
-    outline: 1px solid tomato;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
 }
 
 .card-set>.item {
-    flex-basis: calc(100% / 3);
-    outline: 1px solid teal;
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
 }
 
 .works-title {
