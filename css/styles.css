@@ -257,17 +257,18 @@ h2 {
 }
 
 /* Works section */
-.container .work {
+
+/* CARD SET */
+
+.card-set {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
+    outline: 1px solid tomato;
 }
 
-.card-set > .item {
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
+.card-set>.item {
+    flex-basis: calc(100% / 3);
+    outline: 1px solid teal;
 }
 
 .works-title {

@@ -1,122 +1,195 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebStudio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-<header class="site-header">
-    <div class="container main-nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container main-nav">
         <nav class="site-nav">
-            <a class="header-logo" href="https://matskin.github.io/goit-markup-hw-03/"><span
-                    class="accent">Web</span>Studio</a>
-            <ul class="site-nav list">
-                <li class="item"><a class="header-link"
-                        href="https://matskin.github.io/goit-markup-hw-03/">Студія</a></li>
-                <li class="item"><a class="header-link selected"
-                        href="https://matskin.github.io/goit-markup-hw-03/portfolio.html">Портфоліо</a></li>
-                <li class="item"><a class="header-link" href="#">Контакти</a></li>
-            </ul>
+          <a
+            class="header-logo"
+            href="https://matskin.github.io/goit-markup-hw-03/"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a
+                class="header-link"
+                href="https://matskin.github.io/goit-markup-hw-03/"
+                >Студія</a
+              >
+            </li>
+            <li class="item">
+              <a
+                class="header-link selected"
+                href="https://matskin.github.io/goit-markup-hw-03/portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="item"><a class="header-link" href="#">Контакти</a></li>
+          </ul>
         </nav>
         <ul class="auth-nav">
-            <li class="item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="contacts-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-    </div>
-</header>
-  <main>
-    <section class="section container work">
-        <h1 hidden>Наші роботи</h1>
-        <ul>
-            <li><button class="works-button selected" type="button">Усі</button></li>
-            <li><button class="works-button" type="button">Веб-сайти</button></li>
+      </div>
+    </header>
+    <main>
+      <section class="section work">
+        <div class="container">
+          <h1 hidden>Наші роботи</h1>
+          <ul>
+            <li>
+              <button class="works-button selected" type="button">Усі</button>
+            </li>
+            <li>
+              <button class="works-button" type="button">Веб-сайти</button>
+            </li>
             <li><button class="works-button" type="button">Додатки</button></li>
             <li><button class="works-button" type="button">Дизайн</button></li>
-            <li><button class="works-button" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="card-set">
-            <li class="item">
-                <a href="#">
-                    <img src="./images/tehnokryak.jpg" alt="Веб-сайт | Технокряк">
-                    <h2 class="works-title">Технокряк</h2>
-                    <p class="works-text">Веб-сайт</p>
-                </a>
+            <li>
+              <button class="works-button" type="button">Маркетинг</button>
             </li>
+          </ul>
+          <ul class="card-set">
             <li class="item">
-                <a href="#">
-                    <img src="./images/poster.jpg" alt="Дизайн | Постер New Orlean vs Golden Star">
-                    <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="works-text">Дизайн</p>
-                </a>
+              <a href="#">
+                <img src="./images/tehnokryak.jpg" alt="Веб-сайт | Технокряк" />
+                <h2 class="works-title">Технокряк</h2>
+                <p class="works-text">Веб-сайт</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/restaurant.jpg" alt="Додаток | Ресторан Seafood">
-                    <h2 class="works-title">Ресторан Seafood</h2>
-                    <p class="works-text">Додаток</p>
-                </a>
+              <a href="#">
+                <img
+                  src="./images/poster.jpg"
+                  alt="Дизайн | Постер New Orlean vs Golden Star"
+                />
+                <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
+                <p class="works-text">Дизайн</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/prime.jpg" alt="Маркетинг | Проєкт Prime">
-                    <h2 class="works-title">Проєкт Prime</h2>
-                    <p class="works-text">Маркетинг</p>
-                </a>
+              <a href="#">
+                <img
+                  src="./images/restaurant.jpg"
+                  alt="Додаток | Ресторан Seafood"
+                />
+                <h2 class="works-title">Ресторан Seafood</h2>
+                <p class="works-text">Додаток</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/boxes.jpg" alt="Додаток | Проєкт Boxes">
-                    <h2 class="works-title">Проєкт Boxes</h2>
-                    <p class="works-text">Додаток</p>
-                </a>
+              <a href="#">
+                <img src="./images/prime.jpg" alt="Маркетинг | Проєкт Prime" />
+                <h2 class="works-title">Проєкт Prime</h2>
+                <p class="works-text">Маркетинг</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/inspiration.jpg" alt="Веб-сайт | Inspiration has no Borders">
-                    <h2 class="works-title">Inspiration has no Borders</h2>
-                    <p class="works-text">Веб-сайт</p>
-                </a>
+              <a href="#">
+                <img src="./images/boxes.jpg" alt="Додаток | Проєкт Boxes" />
+                <h2 class="works-title">Проєкт Boxes</h2>
+                <p class="works-text">Додаток</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/limited.jpg" alt="Дизайн | Видання Limited Edition">
-                    <h2 class="works-title">Видання Limited Edition</h2>
-                    <p class="works-text">Дизайн</p>
-                </a>
+              <a href="#">
+                <img
+                  src="./images/inspiration.jpg"
+                  alt="Веб-сайт | Inspiration has no Borders"
+                />
+                <h2 class="works-title">Inspiration has no Borders</h2>
+                <p class="works-text">Веб-сайт</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/lab.jpg" alt="Маркетинг | Проєкт LAB">
-                    <h2 class="works-title">Проєкт LAB</h2>
-                    <p class="works-text">Маркетинг</p>
-                </a>
+              <a href="#">
+                <img
+                  src="./images/limited.jpg"
+                  alt="Дизайн | Видання Limited Edition"
+                />
+                <h2 class="works-title">Видання Limited Edition</h2>
+                <p class="works-text">Дизайн</p>
+              </a>
             </li>
+
             <li class="item">
-                <a href="#">
-                    <img src="./images/growing.jpg" alt="Додаток | Growing Business">
-                    <h2 class="works-title">Growing Business</h2>
-                    <p class="works-text">Додаток</p>
-                </a>
+              <a href="#">
+                <img src="./images/lab.jpg" alt="Маркетинг | Проєкт LAB" />
+                <h2 class="works-title">Проєкт LAB</h2>
+                <p class="works-text">Маркетинг</p>
+              </a>
             </li>
-        </ul>
-    </section>
-  </main>
-<footer class="footer">
-    <div class="container">
-        <a class="footer-logo" href="/"><span class="accent">Web</span>Studio</a>
+
+            <li class="item">
+              <a href="#">
+                <img
+                  src="./images/growing.jpg"
+                  alt="Додаток | Growing Business"
+                />
+                <h2 class="works-title">Growing Business</h2>
+                <p class="works-text">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo" href="/"
+          ><span class="accent">Web</span>Studio</a
+        >
         <ul class="footer-list">
-            <li><a class="address-link" href="https://goo.gl/maps/DKk7dyc23nP1CTv16" target="_blank"
-                    rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a class="mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="tel-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a
+              class="address-link"
+              href="https://goo.gl/maps/DKk7dyc23nP1CTv16"
+              target="_blank"
+              rel="noopener noreferrer"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li>
+            <a class="mail-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
