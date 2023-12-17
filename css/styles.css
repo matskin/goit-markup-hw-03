@@ -8,7 +8,6 @@
     --color-link: #fff9;
     --color-bg: #f5f4fa;
     --color-line: #ececec;
-
     --card-set-gap: 30px;
 }
 
@@ -36,8 +35,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-a {
+p {
     margin: 0;
 }
 
@@ -63,6 +61,8 @@ a {
 
 .container {
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
     width: 1230px;
     text-align: center;
@@ -268,7 +268,7 @@ a {
 }
 
 .card-set > .item {
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    flex-basis: calc((100% - 6 - (var(--card-set-gap) * 2)) / 3);
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
     border: 1px solid #EEE;
