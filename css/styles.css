@@ -64,7 +64,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     
-    width: 1230px;
+    width: 1200px;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .header-logo {
-    padding-right: 93px;
+    margin-right: 93px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -99,8 +99,8 @@ a {
 
 .header-link {
     display: block;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-weight: 500;
     line-height: 1.18;
