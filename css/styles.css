@@ -136,8 +136,6 @@ a {
 
 /* Main section */
 .section {
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -211,7 +209,7 @@ a {
 }
 
 .benefit-title {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -259,6 +257,7 @@ a {
 }
 
 .person-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -271,13 +270,13 @@ a {
 }
 
 /* Works section */
-.container .button {
+.button {
     justify-content: center;
     margin-bottom: 50px;
 }
 
 .button > .item:not(:last-child) {
-    padding-right: 8px;
+    margin-right: 8px;
 }
 
 /* CARD SET */
@@ -289,12 +288,21 @@ a {
 }
 
 .card-set > .item {
-    flex-basis: calc((100% - 6 - (var(--card-set-gap) * 2)) / 3);
+    width: 370px;
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
 }
 
+.card-set-title {
+    padding: 20px 24px;
+    border-right: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    background: #FFF;
+}
+
 .works-title {
+    padding-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.875;
@@ -310,11 +318,13 @@ a {
 }
 
 .works-button {
+    padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.875;
     color: var(--color-primary);
     border: none;
+    border-radius: 4px;
     background-color: var(--color-bg);
     text-align: center;
 }
